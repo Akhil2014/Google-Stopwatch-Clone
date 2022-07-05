@@ -1,10 +1,17 @@
-
+import { BiStopwatch } from "react-icons/bi";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     SetUp ready
+     <div className='button-div'>
+      <div>
+      <button className='button'>Timer</button>
+      </div>
+      <div>
+      <button className='button'><BiStopwatch />Stopwatch</button>
+      </div>
+       </div>
     </div>
   );
 }
